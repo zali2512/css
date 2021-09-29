@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 55px;
+    text-align: center;
+    width: 1200px;
+    padding: 5px;
+    background-color: rgb(177, 92, 247);
+    color: white;
+    height: 140px;
+    text-shadow: black 1px 1px 1px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    border: black 8px solid;
+}
+.read{
+    background-color: yellow;
+    font-size: 36px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: black 2px solid;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(107, 34, 103);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.column{
+    margin-right: 10px;
+}
+.insta{
+    border: black solid 2px;
+    background-color: rgb(204, 0, 255);
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    display:flex;
+    justify-content: center; 
+}
+.mail{
+    border: black solid 2px;
+    background-color: rgb(204, 0, 255);
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    display:flex;
+    justify-content: center;    
+}
+.facebook{
+    border: black solid 2px;
+    background-color: rgb(204, 0, 255);
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    display:flex;
+    justify-content: center; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(240, 234, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: solid 1px black;
+}
